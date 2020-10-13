@@ -6,8 +6,28 @@
 <meta name="keywords" content="html tutorial template">
 </head>
 <body>
-    <div style="text-align:center"> 
+    <div class="container">
+        <div class="center">
 <img width="400" src="./gt_logo_mark_1000x1000.png"/>
 </div>
+</div>
+
 </body>
 </html>
+
+<style>
+    .container {
+      height: 200px;
+      position: relative;
+      border: 3px solid green;
+    }
+    
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    </style>
