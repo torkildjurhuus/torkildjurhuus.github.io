@@ -47,7 +47,7 @@
   -webkit-animation-name: ticker;
   animation-name: ticker;
   -webkit-animation-duration: 30s;
-  animation-duration: 30s;
+  animation-duration: 20s;
 }
 .ticker-wrap .ticker__item {
   display: inline-block;
